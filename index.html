@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h2> SIMPLE CALCULATOR</h2>
+
+
+
+    <div class="container">
+        <div class="box">
+            <label class="label">First Number:</label> <input type="text" id="inp1" >
+            <br>
+            <label class="label">Second Number:</label><input type="text" id="inp2">
+            <br>
+            <label for="operation" class="label">Choose Operator:</label>
+         
+         <select name="operator" id="opr">
+           <option value="add" >ADD</option>
+           <option value="sub" >SUBSTRACT</option>
+           <option value="mul">MULTIPLICATION</option>
+           <option value="div">DIVISION</option>
+         </select>
+         <br>
+        </div>
+        <button id="btn" onclick="finalResult()"> Result </button>
+<br>
+<input type="text" value="  " id="screen">
+ 
+
+
+
+    </div>
+    <script src="calc.js">
+
+    </script>
+</body>
+</html>
